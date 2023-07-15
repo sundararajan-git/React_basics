@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <p>Props pass to other component </p>
-      //--- added Component
+      //--- added Component and pass the state
       <Name name={name} />
     </div>
   );
@@ -19,9 +19,11 @@ export default App;
 import React from "react";
 
 const Name = (props) => {
+  // get the props and destructing
+  let { name } = props
   return (
     <div>
-      <p> User name is {props.name}</p>
+      <p> User name is {name}</p>
     </div>
   );
 };
