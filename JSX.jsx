@@ -1,5 +1,5 @@
 <>
-  //--- className
+  //---- className
   <div className="JSX">
     <p>JSX stands for JavaScript XML.</p>
     <p>JSX allows us to write HTML in React.</p>
