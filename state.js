@@ -1,6 +1,7 @@
 import React from "react";
 
 const App = () => {
+  // --- initial satte
   let name = "Arun";
   return (
     <div>
